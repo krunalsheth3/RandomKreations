@@ -1,0 +1,6 @@
+[01-Apr-2015 14:00:01 America/New_York] PHP Parse error:  syntax error, unexpected '$incoming_message' (T_VARIABLE) in /home/randkigr/public_html/phpmailertesting/test1.php on line 32
+[01-Apr-2015 14:24:26 America/New_York] PHP Parse error:  syntax error, unexpected '"<h2> The senders name is : "' (T_CONSTANT_ENCAPSED_STRING) in /home/randkigr/public_html/phpmailertesting/test1.php on line 27
+[06-Apr-2015 16:39:58 America/New_York] PHP Parse error:  syntax error, unexpected '"' in /home/randkigr/public_html/phpmailertesting/test1.php on line 37
+[06-Apr-2015 16:40:21 America/New_York] PHP Parse error:  syntax error, unexpected '"' in /home/randkigr/public_html/phpmailertesting/test1.php on line 37
+[06-Apr-2015 16:47:36 America/New_York] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home/randkigr/public_html/phpmailertesting/test1.php on line 37
+[06-Apr-2015 17:07:26 America/New_York] PHP Parse error:  syntax error, unexpected 'list' (T_LIST) in /home/randkigr/public_html/phpmailertesting/test1.php on line 41
