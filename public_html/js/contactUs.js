@@ -33,8 +33,10 @@ $(document).ready(function() {
 					$("#main-contact-form")[0].reset(); // To reset form fields on success.
 				},
 				error: function(data){
-					$("#spinner").addClass("hidden");
-					$("#emailFailure").removeClass("hidden");
+                                        $("#main-contact-form")[0].reset(); // To reset form fields on success.
+                                        $("#emailSuccess").removeClass("hidden");
+					showSpinner(false);
+					//$("#emailFailure").removeClass("hidden");
 					$("#contactUsSubmit").prop("disabled", false);
 				}
 			});
