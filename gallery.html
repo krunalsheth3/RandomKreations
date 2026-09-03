@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Random Kreations - Student Art & Paintings</title>
+  <meta name="description" content="Browse our gallery of student artwork, paintings, and exhibitions at Random Kreations art academy in Mumbai.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gallery | Random Kreations">
+  <meta property="og:description" content="Browse student artwork, paintings, and exhibitions from Random Kreations art academy.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YK97P3E7TZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YK97P3E7TZ');
+  </script>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header header--solid" id="header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo/rkLogo.png" alt="Random Kreations Logo">
+        <span class="nav__logo-tagline">Discover your creative side</span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="index.html#classes" class="nav__link">Classes</a></li>
+        <li><a href="index.html#about" class="nav__link">About</a></li>
+        <li><a href="gallery.html" class="nav__link nav__link--active">Gallery</a></li>
+        <li><a href="index.html#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="index.html#faq" class="nav__link">FAQ</a></li>
+        <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+        <li><a href="https://forms.gle/1gHZzw77eETfmEv47" target="_blank" class="btn btn--primary btn--sm nav__cta">Book a Trial Class</a></li>
+      </ul>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== Page Hero ===== -->
+  <section class="gallery-page-hero">
+    <div class="container">
+      <h1>Our Gallery</h1>
+      <p>Explore artwork from our students, instructor paintings, and annual exhibitions. Every piece tells a story of growth and creativity.</p>
+    </div>
+  </section>
+
+  <!-- ===== Gallery Section ===== -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="gallery-filters">
+        <button class="gallery-filter-btn active" data-filter="all">All</button>
+        <button class="gallery-filter-btn" data-filter="paintings">Paintings</button>
+        <button class="gallery-filter-btn" data-filter="clocks">Wall Clocks</button>
+        <button class="gallery-filter-btn" data-filter="earrings">Earrings</button>
+        <button class="gallery-filter-btn" data-filter="cards">Cards</button>
+        <button class="gallery-filter-btn" data-filter="student-work">Student Work</button>
+        <button class="gallery-filter-btn" data-filter="exhibitions">Exhibitions</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-full-grid">
+        <!-- Paintings -->
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/landscape.jpg" alt="Landscape painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/lordBuddha.jpg" alt="Lord Buddha painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/lordGanesha.jpg" alt="Lord Ganesha painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/abstract.jpg" alt="Abstract art" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/weavingArt.jpg" alt="Weaving art painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/warliArt.jpg" alt="Warli art painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/menika.jpg" alt="Menika painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/indianMenotomy.jpg" alt="Indian art painting" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="paintings">
+          <img src="images/paintings/3DArt.jpg" alt="3D Art" loading="lazy">
+        </div>
+
+        <!-- Wall Clocks -->
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/minions_hanging.jpg" alt="Minions themed wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/minions_flying.jpg" alt="Minions flying wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/frozen.jpg" alt="Frozen themed wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/basketball.jpg" alt="Basketball themed wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/butterflyo.jpg" alt="Butterfly wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/lotr.jpg" alt="Lord of the Rings wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/mother_earth.jpg" alt="Mother Earth wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/music.jpg" alt="Music themed wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/sweet_dreams.jpg" alt="Sweet Dreams wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/shalom.jpg" alt="Shalom wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/home_run.jpg" alt="Home Run wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/mahavira.jpg" alt="Mahavira wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/now_right_time.jpg" alt="Now is the Right Time wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/running_manb.jpg" alt="Running Man wall clock" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="clocks">
+          <img src="images/clocks/brewkit.jpg" alt="Brewkit wall clock" loading="lazy">
+        </div>
+
+        <!-- Earrings -->
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e1.jpg" alt="Handmade earrings design 1" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e2.jpg" alt="Handmade earrings design 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e3.jpg" alt="Handmade earrings design 3" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e4.jpg" alt="Handmade earrings design 4" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e5.jpg" alt="Handmade earrings design 5" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e6.jpg" alt="Handmade earrings design 6" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e7.jpg" alt="Handmade earrings design 7" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e8.jpg" alt="Handmade earrings design 8" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e9.jpg" alt="Handmade earrings design 9" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e10.jpg" alt="Handmade earrings design 10" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e11.jpg" alt="Handmade earrings design 11" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e12.jpg" alt="Handmade earrings design 12" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e13.jpg" alt="Handmade earrings design 13" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e14.jpg" alt="Handmade earrings design 14" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e15.jpg" alt="Handmade earrings design 15" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e16.jpg" alt="Handmade earrings design 16" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e17.jpg" alt="Handmade earrings design 17" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e18.jpg" alt="Handmade earrings design 18" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e19.jpg" alt="Handmade earrings design 19" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e20.jpg" alt="Handmade earrings design 20" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e21.jpg" alt="Handmade earrings design 21" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e22.jpg" alt="Handmade earrings design 22" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e23.jpg" alt="Handmade earrings design 23" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e24.jpg" alt="Handmade earrings design 24" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e25.jpg" alt="Handmade earrings design 25" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e26.jpg" alt="Handmade earrings design 26" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="earrings">
+          <img src="images/earrings/e27.jpg" alt="Handmade earrings design 27" loading="lazy">
+        </div>
+
+        <!-- Handmade Cards -->
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/a1.jpg" alt="Handmade anniversary card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/a2.jpg" alt="Handmade anniversary card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/v1.jpg" alt="Handmade Valentine card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/v2.jpg" alt="Handmade Valentine card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/v3.jpg" alt="Handmade Valentine card 3" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/v4.jpg" alt="Handmade Valentine card 4" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/hb1.jpg" alt="Handmade birthday card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/hb2.jpg" alt="Handmade birthday card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/hb3.jpg" alt="Handmade birthday card 3" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/hb4.jpg" alt="Handmade birthday card 4" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/bk1.jpg" alt="Handmade bookmark" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/bs1.jpg" alt="Handmade best wishes card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/bs2.jpg" alt="Handmade best wishes card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/bs3.jpg" alt="Handmade best wishes card 3" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c1.jpg" alt="Handmade craft card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c2.jpg" alt="Handmade craft card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c3.jpg" alt="Handmade craft card 3" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c4.jpg" alt="Handmade craft card 4" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c5.jpg" alt="Handmade craft card 5" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/c6.jpg" alt="Handmade craft card 6" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/d1.jpg" alt="Handmade Diwali card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/i1.jpg" alt="Handmade invitation card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/i2.jpg" alt="Handmade invitation card 2" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/ty1.jpg" alt="Handmade thank you card" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="cards">
+          <img src="images/cards/pf1.jpg" alt="Handmade photo frame card" loading="lazy">
+        </div>
+
+        <!-- Student Work (Art Shows 2023) -->
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171016.jpg" alt="Student artwork 2023" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171049.jpg" alt="Student painting 2023" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171110.jpg" alt="Student art exhibition 2023" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171129.jpg" alt="Art show display 2023" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170744.jpg" alt="Student creative work" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170632.jpg" alt="Mixed media student art" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170349.jpg" alt="Student art piece" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170705.jpg" alt="Student artwork display" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170717.jpg" alt="Creative student work" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170730.jpg" alt="Student art gallery" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170822.jpg" alt="Student painting on display" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170900.jpg" alt="Annual art show piece" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_170926.jpg" alt="Student creative expression" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171031.jpg" alt="Art show 2023" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171750.jpg" alt="Student work exhibition" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2023/20230507_171757.jpg" alt="Art display 2023" loading="lazy">
+        </div>
+
+        <!-- Student Work (Art Shows 2022) -->
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2022/20220430_161826.jpg" alt="Student artwork 2022" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2022/20220430_164609.jpg" alt="Student painting 2022" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2022/20220430_164715.jpg" alt="Art show 2022" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2022/20220430_170920.jpg" alt="Student art 2022" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="student-work">
+          <img src="images/artshows/2022/20220430_174605.jpg" alt="Student exhibition 2022" loading="lazy">
+        </div>
+
+        <!-- Exhibitions -->
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/aos1_2014.jpg" alt="Art exhibition 2014" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/aos2_2014.jpg" alt="Exhibition display 2014" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/aos1_2013.jpg" alt="Art exhibition 2013" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/aos2_2013.jpg" alt="Exhibition 2013" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/aos3_2013.jpg" alt="Art show 2013" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/newtonArtsCrafts_2014.jpg" alt="Newton Arts and Crafts 2014" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/newtonIndiaArt2014.jpg" alt="Newton India Art 2014" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/acaOnMap1.jpg" alt="ACA on Map exhibition" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/acaOnMap2.jpg" alt="ACA exhibition display" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/otherExh1.jpg" alt="Art exhibition" loading="lazy">
+        </div>
+        <div class="gallery-item" data-category="exhibitions">
+          <img src="images/exhibitions/otherExh2.jpg" alt="Exhibition artwork" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section class="section section--cream">
+    <div class="container" style="text-align:center;">
+      <h2 style="margin-bottom:1rem;">Inspired by What You See?</h2>
+      <p style="max-width:600px;margin:0 auto 2rem;color:#636E72;">Your artwork could be here next. Join our classes and discover the artist within you.</p>
+      <a href="https://forms.gle/1gHZzw77eETfmEv47" target="_blank" class="btn btn--primary">Book a Free Trial Class</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <h3>Random Kreations</h3>
+          <p>Mumbai's premier art academy nurturing creativity in students of all ages since 2013.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="index.html#classes">Classes</a>
+          <a href="index.html#about">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="index.html#testimonials">Testimonials</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer__contact">
+          <h4>Get in Touch</h4>
+          <p>A-602 Radha Vishweshvar, Narsing Lane,<br>Malad (W), Mumbai 400064</p>
+          <p><a href="tel:+919326255691">+91-9326255691</a></p>
+          <p><a href="mailto:randomkreations16@gmail.com">randomkreations16@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Random Kreations. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/richadoshi30" target="_blank" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/randomkreations/" target="_blank" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp Float Button ===== -->
+  <a href="https://wa.me/919326255691?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20art%20classes" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ===== Mobile Bottom Bar ===== -->
+  <div class="mobile-bottom-bar">
+    <a href="https://forms.gle/1gHZzw77eETfmEv47" target="_blank" class="btn btn--primary">Book a Free Trial Class</a>
+  </div>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox">
+    <button class="lightbox__close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous image">&#10094;</button>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Next image">&#10095;</button>
+    <img class="lightbox__img" src="" alt="">
+  </div>
+
+  <!-- JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
